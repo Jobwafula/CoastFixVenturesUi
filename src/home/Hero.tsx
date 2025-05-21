@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
   const images = [
@@ -18,6 +19,7 @@ const HeroSection = () => {
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, [images.length]);
+  const navigate = useNavigate()
 
   return (
     <section
@@ -34,7 +36,7 @@ const HeroSection = () => {
         </p>
         <button
           className="bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-6 rounded-full transition duration-300"
-        >
+        onClick={()=>navigate('/tours')}>
           Start Your Journey
         </button>
       </div>

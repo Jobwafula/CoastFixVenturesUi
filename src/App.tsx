@@ -1,6 +1,8 @@
 
 import Home from './pages/Home'
 import { Route,Routes,BrowserRouter } from 'react-router-dom'
+import TourDetail from './pages/TourDetail'
+import Tours from './pages/Tours'
 
 function App() {
 
@@ -9,9 +11,11 @@ function App() {
     <>
      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/tours" element={<Tours />} />
+        
+        <Route path="/tours/:id" element={<TourDetail />} />
          
-        </Route>
       </Routes>
     </BrowserRouter>
     </>
