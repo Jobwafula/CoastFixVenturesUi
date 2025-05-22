@@ -1,5 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { tours } from '../data/toursData';
+import Navbar from '../mainlayout/Navbar';
+import Footer from '../mainlayout/Footer';
 
 const TourDetail = () => {
   const { id } = useParams();
@@ -21,6 +23,8 @@ const TourDetail = () => {
   }
 
   return (
+    <div>
+        <Navbar />
     <div className="bg-gray-100 min-h-screen">
       {/* Hero Section */}
       <div className="relative h-96">
@@ -167,6 +171,8 @@ const TourDetail = () => {
           Back to all tours
         </Link>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };
