@@ -151,8 +151,8 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Phone</h3>
                   <p className="text-gray-600">
-                    <a href="tel:+254712345678" className="hover:text-orange-600">+254 712 345 678</a><br />
-                    <a href="tel:+254733987654" className="hover:text-orange-600">+254 733 987 654</a>
+                    <a href="tel:+254 786 598 394" className="hover:text-orange-600">+254 786 598 394</a><br />
+                    <a href="tel:+254 786 598 394" className="hover:text-orange-600">+254 786 598 394</a>
                   </p>
                 </div>
               </div>
