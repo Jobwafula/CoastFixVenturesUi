@@ -12,7 +12,7 @@ const Footer = () => {
             <Link to="/" className="flex items-center py-4 px-2">
                            <img 
                              src='./logo.png' 
-                             alt="KCHomes Travels Logo" 
+                             alt="CoastFix Travels Logo" 
                              className="h-18 w-auto" // Adjust height as needed
                            />
                          </Link>

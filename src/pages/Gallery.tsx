@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../mainlayout/Navbar';
 import Footer from '../mainlayout/Footer';
+import { Link } from 'react-router-dom';
 
 const Gallery = () => {
   const images = [
